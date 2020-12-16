@@ -1,0 +1,3 @@
+@function screen-width($key) {
+  @return map-get($screen-width, $key);
+}

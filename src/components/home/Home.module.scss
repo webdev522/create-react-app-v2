@@ -1,0 +1,11 @@
+@import 'styles/utils';
+
+.home {
+  background: yellow;
+  font-family: Montserrat;
+  @include flex-center();
+
+  &.active {
+    background: orange;
+  }
+}
